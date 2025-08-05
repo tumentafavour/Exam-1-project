@@ -197,7 +197,7 @@ void loadFromFile(Student list[], int *count) {
     printf("Records loaded from students.txt\n");
 }
 
-// [Source: 48, 49] Bonus function to delete a student record by ID.
+//Bonus function to delete a student record by ID.
 void deleteStudent(Student list[], int *count, int id) {
     int found = -1; // Index of the student to be deleted.
 
